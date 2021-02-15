@@ -1,19 +1,25 @@
 package com.telran.fw;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.events.EventFiringWebDriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
 
-    AppiumDriver driver;
+    AppiumDriver<MobileElement> driver;
     UserHelper userHelper;
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     DesiredCapabilities capabilities;
@@ -28,19 +34,22 @@ public class ApplicationManager {
         capabilities.setCapability("appActivity", ".presentation.splashScreen.SplashScreenActivity");
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("app",
-                "C:/Users/Elena/Dropbox/Tel-ran/Mobile/Grisha/SuperScheduler/v.0.0.3.apk");
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+                "/Users/tayahatum/QAAppium/apk/v.0.0.3.apk");
+        driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
 
         logger.info("App version: " + getAppVersion());
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver = EventFiringWebDriverFactory.getEventFiringWebDriver(driver, new AppiumListener());
 
 
         userHelper = new UserHelper(driver);
+
     }
 
     public String getAppVersion() {
+
         return driver.findElement
                 (By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']")).getText();
     }

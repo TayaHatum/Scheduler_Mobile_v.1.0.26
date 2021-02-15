@@ -1,0 +1,26 @@
+23:57:29 INFO  - App version: 0.0.3
+23:57:31 INFO  - Start test testLogin
+23:57:31 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+23:57:34 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']<--- Found
+23:57:34 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+23:57:35 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']<--- Found
+23:57:35 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+23:57:36 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']<--- Found
+23:57:37 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+23:57:38 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']<--- Found
+23:57:38 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+23:57:39 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']<--- Found
+23:57:39 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+23:57:40 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']<--- Found
+23:57:41 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+23:57:41 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']<--- Found
+23:57:41 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+23:57:44 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']<--- Found
+23:57:44 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+23:57:44 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']<--- Found
+23:57:45 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+23:57:46 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']<--- Found
+23:57:46 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+23:57:47 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']<--- Found
+23:57:47 INFO  - Stop test testLogin
+************************************************
