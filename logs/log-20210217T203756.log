@@ -1,0 +1,54 @@
+20:38:17 INFO  - App version: 0.0.3
+20:38:19 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:38:33 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']<--- Found
+20:38:33 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:38:34 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']<--- Found
+20:38:34 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:38:35 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']<--- Found
+20:38:35 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:38:36 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']<--- Found
+20:38:37 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:38:37 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']<--- Found
+20:38:37 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:38:39 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']<--- Found
+20:38:39 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+20:38:39 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']<--- Found
+20:38:40 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+20:38:41 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']<--- Found
+20:38:42 INFO  - Start test testEventCreation
+20:38:42 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+20:38:44 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']<--- Found
+20:38:44 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']
+20:38:45 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']<--- Found
+20:38:45 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/date_container_layout']
+20:38:48 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/date_container_layout']<--- Found
+20:38:57 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:38:57 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']<--- Found
+20:38:59 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:38:59 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']<--- Found
+20:38:59 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+20:39:00 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']<--- Found
+20:39:01 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:39:03 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']<--- Found
+20:39:03 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:39:03 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']<--- Found
+20:39:04 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
+20:39:04 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']<--- Found
+20:39:06 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+20:39:06 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']<--- Found
+20:39:07 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']
+20:39:08 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_break_plus_btn']<--- Found
+20:39:08 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']
+20:39:09 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_edit']<--- Found
+20:39:09 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:39:10 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']<--- Found
+20:39:10 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:39:11 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']<--- Found
+20:39:12 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']
+20:39:12 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_input']<--- Found
+20:39:12 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']
+20:39:13 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_wage_save']<--- Found
+20:39:13 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']
+20:39:15 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']<--- Found
+20:39:15 INFO  - Stop test testEventCreation
+************************************************

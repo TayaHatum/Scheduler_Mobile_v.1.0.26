@@ -13,12 +13,12 @@ public class UserHelper extends HelperBase {
     }
 
     public void logIn(User user)  {
-       type(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']"), user.getEmail());
+       type(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']"), user.getUserName());
        type(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']"), user.getPassword());
 
        driver.hideKeyboard();
 
-       click(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']"));
+       tap(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']"));
 
 
     }
@@ -26,7 +26,7 @@ public class UserHelper extends HelperBase {
     public void skipSettings(){
         String skipButton = "//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']";
         if(isElementPresent(By.xpath(skipButton))){
-            click(By.xpath(skipButton));
+            tap(By.xpath(skipButton));
         }
     }
 
@@ -34,5 +34,10 @@ public class UserHelper extends HelperBase {
         String plusBtn = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']";
         new WebDriverWait(driver, 15).until(ExpectedConditions.presenceOfElementLocated(By.xpath(plusBtn)));
         return isElementPresent(By.xpath(plusBtn));
+    }
+
+
+    public boolean isIntoAccount(){
+        return isElementPresent(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']"));
     }
 }

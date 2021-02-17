@@ -1,0 +1,6 @@
+20:35:46 INFO  - App version: 0.0.3
+20:35:48 INFO  - Start test launchTest
+20:35:48 INFO  - Start find --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']
+20:35:48 INFO  - By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']<--- Found
+20:35:49 INFO  - Stop test launchTest
+************************************************

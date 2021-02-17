@@ -2,12 +2,14 @@ package com.telran.fw;
 
 import com.google.common.io.Files;
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 public class HelperBase {
     AppiumDriver driver;;
@@ -18,7 +20,7 @@ public class HelperBase {
 
     public void typeByCss(By locator, String text) {
         if(text!=null){
-            click(locator);
+            tap(locator);
             driver.findElement(locator).clear();
             driver.findElement(locator).sendKeys(text);
         }
@@ -27,13 +29,13 @@ public class HelperBase {
 
 
 
-    public void click(By locator) {
+    public void tap(By locator) {
         driver.findElement(locator).click();
     }
 
     public void type(By locator, String text) {
         if(text!=null) {
-            click(locator);
+            tap(locator);
             driver.findElement(locator).clear();
             driver.findElement(locator).sendKeys(text);
         }
@@ -58,4 +60,30 @@ public class HelperBase {
            e.printStackTrace();
        }
    }
+
+
+    public void moveElementToLeft(By locator){
+        TouchAction action = new TouchAction(driver);
+
+        Dimension size = driver.manage().window().getSize();
+
+        int leftPoint = (int) (size.width*0.2);
+        int middlePoint = (int) (size.width*0.5);
+
+        WebElement element = driver.findElement(locator);
+
+        int leftX = (int) (element.getLocation().getX()*0.2);
+        int rightX = (int) ((leftX + element.getSize().getWidth()) * 0.8);
+        int upperY = element.getLocation().getY();
+        int lowerY = upperY + element.getSize().getHeight();
+        int middleY = (upperY + lowerY) / 2;
+
+        action
+                .longPress(PointOption.point(rightX, middlePoint))
+                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(3)))
+                .moveTo(PointOption.point(leftPoint,middleY)).release().perform();
+
+
+
+    }
 }
